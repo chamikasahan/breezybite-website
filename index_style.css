@@ -1,0 +1,465 @@
+/* style for the carousel style */
+.bg-light {
+  background-color: transparent !important;
+}
+
+.carousel-item {
+  height: 90vh;
+  min-height: 300px;
+}
+
+.carousel-item img {
+  filter: brightness(50%);
+}
+
+.carousel-caption {
+  bottom: 220px;
+}
+.carousel-caption h1 {
+  color: #ffc107;
+  font-size: 290%;
+  letter-spacing: 2px;
+  font-family: "Bree Serif", serif;
+}
+
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 135%;
+  line-height: 1.9;
+  font-family: "Preahvihear", sans-serif;
+}
+
+.carousel-caption a {
+  text-decoration: none;
+
+  padding: 10px 30px;
+  display: inline-block;
+  font-weight: 500;
+  margin-top: 15px;
+  border-radius: 1px;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* end of the carousel style*/
+
+/* start of the nav-bar style */
+
+.navbar-nav a {
+  font-size: 18px;
+
+  font-weight: 500;
+}
+
+.navbar-light,
+.navbar-brand {
+  color: white;
+  font-size: 25px;
+
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.nav-item {
+  margin-right: 30px;
+  font-weight: 600;
+}
+
+.brands {
+  color: #ffc107;
+  font-style: italic;
+}
+.nav-link {
+  color: rgb(255, 255, 255);
+  transition: transform 0.5s ease;
+}
+
+.top-nav .nav-link:hover {
+  transform: translate(3px);
+color: #ffc107;
+}
+
+.navbar-brand img {
+  display: block;
+  position: absolute;
+  width: 30px;
+  margin-top: -9px;
+  margin-left: -5px;
+
+}
+
+.navbar-light,
+.navbar-brand:focus,
+.navbar-light,
+.navbar-brand:hover {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-light,
+.navbar-nav,
+.nav-link:focus,
+.navbar-light,
+.navbar-nav,
+.nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+
+.w-100 {
+  height: 90vh;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+  background: white;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: background-color 0.7s ease;
+}
+
+.menu-list {
+  width: 750%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+}
+
+.dropdown-item {
+  color: rgb(255, 255, 255);
+}
+
+.drop-section:hover {
+  background-color: #ffffff;
+}
+
+
+
+/* end of the nav-bar style */
+
+/* media queries for navbar and corousel */
+
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .btn-signup {
+    margin-bottom: 6px;
+  }
+
+  .carousel-caption {
+    bottom: 165px;
+  }
+  .carousel-caption h1 {
+    font-size: 30px;
+  }
+  .carousel-caption p {
+    font-size: 15px;
+  }
+
+  .carousel-caption a {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+
+  .m-v img {
+    visibility: hidden;
+  }
+
+  .s-h h1 {
+    font-size: medium;
+  }
+
+ 
+}
+/* media queries for navbar and corousel */
+
+/* start of Our-mission style */
+
+.mission-vision {
+  height: 500px;
+  
+  border-right: 1px solid #4a4a4a;
+}
+
+.m-v img {
+  display: block;
+  position: absolute;
+  width:30%;
+  height: 55%;
+  z-index: -1;
+  opacity: 40%;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+.mission {
+  color: #ffc107;
+  font-size: 100%;
+}
+.mission-vision2 h1 {
+  text-align: right;
+}
+.mission-vision2 {
+  height: 400px;
+  
+}
+
+.mission-body {
+  padding-right: 20px;
+
+  font-weight: 500;
+  height: 500px;
+  font-size: 120%;
+  text-align: justify;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.vision-body {
+  padding-left: 20px;
+  font-weight: 500;
+  height: 600px;
+  font-size: 110%;
+  text-align: justify;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* end of our-mission style */
+
+/* start of discover story row style */
+.transparent-fluid {
+  background-image: url("Products/others/Discover_transparent.jpg"); /* Set background image for the second row */
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%; /* Adjust the height as needed */
+  filter: brightness(70%);
+}
+
+.discover {
+  color: #ffc107;
+  font-size: 80%;
+  margin-left: 5%;
+  font-family: cursive;
+}
+/* .about-us h1 {
+          margin-top: 2%;
+          margin-left: 4%;
+          font-family: cursive;
+          color: #f7b900;
+          stroke: 3px black;
+          filter: none;
+          
+        } */
+
+.Story {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 118%;
+  margin-left: -1%;
+  color: rgb(255, 255, 255);
+}
+
+.about-p {
+  color: #ffffff;
+  text-align: justify;
+  font-weight: 500;
+  padding-right: 10%;
+  font-size: 125%;
+}
+
+.btn-about:hover {
+  background-color: transparent; /* Change background to transparent on hover */
+  border-color: #fff; /* Change border color to white on hover */
+  color: #ffffff;
+}
+
+/* end of discover story row style */
+
+/* start of the seasonal delight style */
+
+.seasonal::before,
+.seasonal::after {
+  content: "";
+  display: inline-block;
+  width: 20%; /* Set the width of the lines */
+  border-top: 3px solid #ffc107; /* Set the color of the lines */
+  margin: 10px 5px;
+}
+
+.seasonal-card {
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  border: 2px solid transparent;
+  transition: border 0.9s ease;
+  box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.seasonal-card img {
+  transition: transform .4s;   /* smoother zoom */
+}
+.seasonal-card img:hover {
+  transform: scale(1.1);
+  transform-origin: 50% 50%;
+  display: block;
+
+}
+
+.seasonal-card:hover {
+  box-shadow: 5px 4px 8px rgba(121, 97, 25, 0.2);
+}
+
+.card-img-top {
+  height: 400px;
+  object-fit: cover;
+}
+.card-title {
+  font-weight: 700;
+}
+.seasonal-text {
+  font-weight: 500;
+}
+
+/* end of the seasonal delight style */
+
+/* start of the Transparent-fluid2 style */
+
+.transparent-fluid2 {
+  background-image: url("Products/others/opening_hours_transparent.png"); /* Set background image for the second row */
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px; /* Adjust the height as needed */
+  
+}
+
+.transparent-fluid2 h1,
+p {
+  text-align: center;
+}
+
+/* .box {
+  height: 120%;
+  box-shadow: 0px 0px70px rgba(0, 0, 0, 0.1); 
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5%;
+} */
+
+.h1-opening {
+  color: #ffc107;
+  font-size: 80%;
+  margin-left: 5%;
+  font-family: cursive;
+}
+
+.h1-hours {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 150%;
+  margin-left: 3%;
+  color: rgb(255, 255, 255);
+}
+
+.box h3 {
+  text-align: center;
+  margin-top: 10%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+hr {
+  background-color: #ffbf00; /* Set the color of the hr line */
+  height: 5px; /* Adjust the height as needed */
+
+  width: 70%; /* Adjust the width as needed */
+  margin: 20px auto; /* Center the hr line and adjust margin for spacing */
+}
+
+/* end of the Transparent-fluid2 style */
+
+/* start of the popular style */
+.popular-card {
+  border: none;
+}
+
+.img-fluid {
+  border-radius: 100%;
+  height: 190px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.popular-text {
+  font-weight: 500;
+  text-align: justify;
+}
+
+/* end of the popular style */
+
+
+/* boxes style */
+.box-texts h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+font-size: 160%;
+}
+
+.box-texts p {
+  margin-top: 8%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 120%;
+font-weight: 550;
+
+
+
+}
+.box1 img, .box2 img, .box3 img {
+  width: 200px;
+}
+
+.box1, .box2, .box3  {
+  
+  transition: background-color 0.7s;
+}
+.box1:hover, .box2:hover, .box3:hover {
+  background-color: #ffc107;
+  
+}
+
+
+/* end of boxes style */
+
+/* start of the footer style */
+.transparent-fluid3 {
+  background-image: url("Products/others/footer-background.jpg"); /* Set background image for the second row */
+  background-size: cover;
+  background-attachment: fixed;
+
+  height: 100%; /* Adjust the height as needed */
+  /* filter: brightness(70%); */
+}
+
+.socials {
+  margin-left: 2%;
+}
+
+.social-icons a img {
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+}
+
+.contact-details {
+  font-size: 120%;
+  font-weight: 500;
+}
+
+.footer-list {
+  list-style-type: none;
+}
+
+/* end of the footer style */

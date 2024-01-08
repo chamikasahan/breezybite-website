@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="signup_style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="Products/Social_media_icons/home.png"
+            class="home-img"
+            alt=""
+        /></a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-5">
+            <img
+              src="Products/others/signup_card.jpg"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <div class="form-signup">
+                <h2 class="card-title mb-5">Sign Up</h2>
+
+                <form
+                  id="signupForm"
+                  onsubmit="return submitForm()"
+                  method="post"
+                >
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="Name"
+                      placeholder="Name"
+                      required
+                    />
+                  </div>
+                  <!--end of form-group-->
+
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      placeholder="Email Address"
+                      required
+                    />
+                  </div>
+
+                  <!--end of form-group-->
+
+                  <div class="form-group">
+                    <input
+                      type="password"
+                      id="password"
+                      class="form-control"
+                      name="password"
+                      placeholder="Password"
+                      required
+                    />
+                  </div>
+                  <!--end of form-group-->
+
+                  <div class="form-group">
+                    <input
+                      type="password"
+                      id="confirmPassword"
+                      class="form-control"
+                      name="password"
+                      placeholder="Confirm Password"
+                      required
+                    />
+                  </div>
+                  <!--end of form-group-->
+
+                  <div class="form-group">
+                    <label>
+                      <input type="checkbox" required />
+                      I accept the
+                      <a href="term_conditions.html">Term Of conditions</a> &
+                      <a href="privacy_policy.html">Privacy Policy</a>
+                    </label>
+                  </div>
+                  <!--end of form-group-->
+
+                  <input
+                    type="submit"
+                    class="submit-btn btn btn-primary mt-5 fw-bold"
+                    name=""
+                    value="Sign Up"
+                  />
+                </form>
+                <!-- Toast for success message -->
+                <div
+                  id="successToast"
+                  class="toast mt-3 align-items-center"
+                  role="alert"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                >
+                  <div class="d-flex">
+                    <div class="toast-body p-2 text-success fw-bold">
+                      Successfully signed up! Redirecting...
+                    </div>
+                    <!-- Spinner for loading indication -->
+                    <div class="spinner-border text-success" role="status">
+                      <span class="visually-hidden">Loading...</span>
+                    </div>
+                  </div>
+                </div>
+                <!--end of the toast message-->
+              </div>
+              <!--end of the form-signup-->
+            </div>
+            <!--end of the card body-->
+          </div>
+          <!--end of the col-->
+        </div>
+        <!--end of the row-->
+      </div>
+      <!--end of the card-->
+    </div>
+    <!--end of container-->
+
+    <script src="signup.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>

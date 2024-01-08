@@ -1,0 +1,79 @@
+/* Sign-Up page styles */
+
+  body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(Products/others/signup_background.jpg);
+
+    background-size: cover;
+  }
+
+  body::before {
+
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: blur(4px); /* Adjust the blur amount as needed */
+ 
+  }
+
+
+  .home-img {
+    width: 9%;
+    margin-left: 3%;
+  }
+
+  
+
+  .form-signup {
+    margin: 0 auto;
+  padding: 5%;
+    max-width: 600px;
+  }
+  
+  .form-group {
+    margin-top: 4%;
+    font-weight: 500;
+  }
+
+  .card {
+    margin-top: 15%;
+    height: 90%;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid red transparent;
+    transition: border 0.9s ease;
+    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.2);
+  
+  }
+
+  .card img {
+    height: 600px; 
+  object-fit: cover;
+  border-top-right-radius: 30%; 
+
+  
+  }
+
+  .card-title {
+    text-align: center;
+   
+    color: blue;
+    text-shadow: 3px 3px 6px  #ffffff;
+    font-weight: 700;
+  }
+  
+  .submit-btn {
+    width: 100%;
+  }
+
+  .spinner-border {
+    margin-left: 20px;
+  }
+
+
+ 
+  /* end of the sign-yp page style */
