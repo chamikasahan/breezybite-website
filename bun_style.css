@@ -297,5 +297,8 @@ background-color: red;
 .footer-list {
   list-style-type: none;
 }
+.footer-a a{
+  text-decoration: none;
+}
 
 /* end of the footer style */

@@ -135,6 +135,10 @@ grid-gap: 10px;
   text-align: center; 
 }
 
+h1 {
+  font-family: cursive;
+}
+
 /* start of the footer style */
 .transparent-fluid3 {
   background-image: url("Products/others/footer-background.jpg"); /* Set background image for the second row */
@@ -162,4 +166,7 @@ grid-gap: 10px;
   list-style-type: none;
 }
 
+.footer-a a{
+  text-decoration: none;
+}
 /* end of the footer style */

@@ -173,4 +173,7 @@ h3 {
   list-style-type: none;
 }
 
+.footer-a a{
+  text-decoration: none;
+}
 /* end of the footer style */

@@ -168,4 +168,7 @@ width: 200px;
   list-style-type: none;
 }
 
+.footer-a a{
+  text-decoration: none;
+}
 /* end of the footer style */

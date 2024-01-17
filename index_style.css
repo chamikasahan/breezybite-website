@@ -129,14 +129,17 @@ color: #ffc107;
   width: 750%;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 8px;
+  
 }
+
+
 
 .dropdown-item {
   color: rgb(255, 255, 255);
 }
 
 .drop-section:hover {
-  background-color: #ffffff;
+  background-color: #ffffff;  
 }
 
 
@@ -462,4 +465,7 @@ font-weight: 550;
   list-style-type: none;
 }
 
+.footer-a a{
+  text-decoration: none;
+}
 /* end of the footer style */
